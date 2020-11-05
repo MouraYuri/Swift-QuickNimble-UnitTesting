@@ -12,8 +12,8 @@ import Nimble
 class CouponTests: QuickSpec {
 
     override func spec() {
-        context("Coupon Tests") {
-            
+        describe("Coupon Tests") {
+            context(<#T##description: String!##String!#>, <#T##closure: QCKDSLEmptyBlock!##QCKDSLEmptyBlock!##() -> Void#>)
         }
     }
 

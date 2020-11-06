@@ -10,10 +10,19 @@ import Nimble
 @testable import TestesUnitarios
 
 class CouponTests: QuickSpec {
+    
+    var sut: Coupon!
 
     override func spec() {
         describe("Coupon Tests") {
             context("Discount Value") {
+                beforeEach {
+                    print("printed before every test case")
+                }
+                
+                afterEach {
+                    print("printed after every test case")
+                }
                 it("Discount value when coupon is valid") {
                     let coupon = Coupon(discountPercentage: 0.2, isValid: true)
                     
